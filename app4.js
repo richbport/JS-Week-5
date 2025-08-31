@@ -18,9 +18,10 @@ const parent = {
 function exploreFamily(person) {
   console.log("Exploring:", person.name);
 
+  // If this person has children, exlore them
   if (person.children && person.children.lenght > 0) {
     for (let child of person.children) {
-      exploreFamily(child);
+      exploreFamily(child); // Recursive call to explore children
     }
   }
 }
