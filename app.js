@@ -6,3 +6,9 @@ function sum(n) {
 }
 
 console.log(sum(5)); // Output: 15
+
+/* 
+
+First Call -> n = 5
+
+*/
