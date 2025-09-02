@@ -11,10 +11,22 @@ console.log(sum(5)); // Output: 15
 
 First Call -> n = 5
 
-returns 5 + sum(4)
+returns 5 + sum(4) (Second Call)
 
 Second Call -> n = 4
 
-returns 4 -> n = 3
+returns 4 + sum(3) (Third Call)
+
+Third Call -> n = 3
+
+returns 3 + sum(2) (Fourth Call)
+
+Fourth Call -> n = 2
+
+returns 2 + sum(1) (Fifth Call)
+
+Fifth Call -> n = 1
+
+returns 1
 
 */
