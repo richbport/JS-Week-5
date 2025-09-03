@@ -7,7 +7,7 @@ function sumNestedArray(arr) {
       total += sumNestedArray(item);
     } else {
         // If it's a number, add it to the total
-      total += item;
+      total += item; //total = total + item
     }
   }
 
