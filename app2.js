@@ -30,7 +30,7 @@ We add it to the total: total = 0 + 1 = 1
 
 Iteration 2:
 item = [2, [3, 4], 5] (array)
-We make a recursive call: total += sumNestedArray([2, [3, 4], 5]) === 14
+We make a recursive call: total += sumNestedArray([2, [3, 4], 5]) === 14. total += 14 + 1 === 15
 
 Second Call:
 Input: [2, [3, 4], 5]
