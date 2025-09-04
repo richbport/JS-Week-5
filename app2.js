@@ -7,8 +7,7 @@ function sumNestedArray(arr) {
       total += sumNestedArray(item);
     } else {
         // If it's a number, add it to the total
-      total += item; //total = total + item
-      total = total + item
+      total += item;
     }
   }
 
@@ -31,7 +30,7 @@ We add it to the total: total = 0 + 1 = 1
 
 Iteration 2:
 item = [2, [3, 4], 5] (array)
-We make a recursive call: total += sumNestedArray([2, [3, 4], 5])
+We make a recursive call: total += sumNestedArray([2, [3, 4], 5]) === 14
 
 Second Call:
 Input: [2, [3, 4], 5]
@@ -43,7 +42,11 @@ We add it to the total: total = 0 + 2 = 2
 
 Iteration 2:
 item = [3, 4] (array)
-We make a recursive call: total += sumNestedArray([3, 4])
+We make a recursive call: total += sumNestedArray([3, 4]) === 7 total === 9
+
+Iteration 3:
+item = 5 (number)
+We add it to the total: total = 9 + 5 === 14
 
 Third Call:
 Input: [3, 4]
