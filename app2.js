@@ -8,6 +8,7 @@ function sumNestedArray(arr) {
     } else {
         // If it's a number, add it to the total
       total += item; //total = total + item
+      total = total + item
     }
   }
 
