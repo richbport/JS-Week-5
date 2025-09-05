@@ -34,7 +34,7 @@ We make a recursive call: total += sumNestedArray([2, [3, 4], 5]) === 14. total 
 
 Iteration 3:
 item = 6 (number)
-We add it to the total: total = 15
+We add it to the total: total = 15 + 6 === 21
 
 
 Second Call:
