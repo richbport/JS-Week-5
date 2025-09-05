@@ -14,7 +14,7 @@ function sumNestedArray(arr) {
   return total;
 }
 
-console.log(sumNestedArray([1, [2, [2, 3, 4], 5], 6])); // First Call // Output: 21
+console.log(sumNestedArray([1, [2, [3, 4], 5], 6])); // First Call // Output: 21
 
 /* 
 
