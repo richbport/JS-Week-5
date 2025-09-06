@@ -41,4 +41,14 @@ We will explore Dad first.
 Now we are at Dad.
 Inside of Dad's family, there are two children; You and Brother.
 
+3. Explore You:
+We visit You.
+There are no more children here, so we have finished exploring this part of the family tree.
+Now, we go back to Dad to explore the next path: Brother.
+
+4. Go down Brother's path:
+Now we walk to Brother.
+There are no children here, so we have finished exploring this part of the family tree.
+Now, we return to Dad.
+
 */
