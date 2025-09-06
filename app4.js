@@ -10,7 +10,9 @@ const parent = {
     },
     {
       name: "Uncle",
-      children: [{ name: "Cousin", children: [] }],
+      children: [
+        { name: "Cousin", children: [] }
+      ],
     },
   ],
 };
@@ -27,3 +29,16 @@ function exploreFamily(person) {
 }
 
 exploreFamily(parent);
+
+/*
+
+1. Start at Grandpa's house:
+We begin at Grandpa's house.
+There are two children: Dad and Uncle.
+We will explore Dad first.
+
+2. Go down the Dad's path:
+Now we are at Dad.
+Inside of Dad's family, there are two children; You and Brother.
+
+*/
