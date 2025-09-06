@@ -60,4 +60,12 @@ Now we are at Uncle.
 Uncle has one child: Cousin.
 We will explore Cousin.
 
+7. Explore the Cousin's Path:
+We visit Cousin.
+There are no children here, so we have finished exploring this part of the family tree.
+
+8. Finish Exploring:
+We have now fully explored all parts of the family tre, including Dad's and Uncle's families, and all of their children.
+The family tree has been fully explored.
+
 */
