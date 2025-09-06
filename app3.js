@@ -18,6 +18,10 @@ const cave = {
 function exploreCave(cave) {
   console.log("Exploring:", cave.name);
 
+  if (cave.paths.length === 0) {
+    console.log("Nowhere to go")
+  }
+
 // if there are more paths, go deeper into each one
   for (let path of cave.paths) {
     exploreCave(path); // Recursive call
