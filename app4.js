@@ -51,4 +51,13 @@ Now we walk to Brother.
 There are no children here, so we have finished exploring this part of the family tree.
 Now, we return to Dad.
 
+5. Finish exploring Dad's path:
+We have explored Dad's family fully (both You and Brother).
+Now, we go back to Grandpa's house to explore Uncle.
+
+6. Go down the Uncle's Path:
+Now we are at Uncle.
+Uncle has one child: Cousin.
+We will explore Cousin.
+
 */
