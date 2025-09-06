@@ -20,8 +20,8 @@ const parent = {
 function exploreFamily(person) {
   console.log("Exploring:", person.name);
 
-  // If this person has children, exlore them
-  if (person.children && person.children.lenght > 0) {
+  // If this person has children, explore them
+  if (person.children && person.children.length > 0) {
     for (let child of person.children) {
       exploreFamily(child); // Recursive call to explore children
     }
@@ -65,7 +65,7 @@ We visit Cousin.
 There are no children here, so we have finished exploring this part of the family tree.
 
 8. Finish Exploring:
-We have now fully explored all parts of the family tre, including Dad's and Uncle's families, and all of their children.
+We have now fully explored all parts of the family tree, including Dad's and Uncle's families, and all of their children.
 The family tree has been fully explored.
 
 */
